@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: rgb(119,114,203);
+    background: linear-gradient(90deg, rgba(119,114,203,1) 0%, rgba(36,35,55,1) 100%); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 72px;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-transform: capitalize;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+    font-family: 'Golos Text', sans-serif;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  section {
+    margin-top: 50px;;
+  }
+  header h1 {
+    font-size: 72px;
+  }
+  header h2 {
+    font-size: 38px;
+    font-style: italic;
+  }
+  .banner {
+    font-size: 60px;
+    text-align: center;
+    padding: 2%;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Golos Text', sans-serif;
+  }
+  
+  ol {
+    padding-left: 30px;
+  }
+  
+  .contentbox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .seriesbox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
