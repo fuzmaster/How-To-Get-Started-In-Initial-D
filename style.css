@@ -1,155 +1,171 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: url('img/bg.png');
-    background-position: top center;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
-  header {
-    background: rgb(119, 114, 203);
-    background: linear-gradient(90deg, rgba(119, 114, 203, 1) 0%, rgba(36, 35, 55, 1) 100%);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    font-size: 72px;
-    font-family: 'PT Sans Caption', sans-serif;
-    text-transform: capitalize;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  #main {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #fff;
-  }
-  
-  h1, h2, h3 {
-    margin: 0;
-    font-weight: normal;
-    font-family: 'Golos Text', sans-serif;
-  }
-  
-  h1 {
-    font-size: 32px;
-  }
-  
-  section {
-    margin-top: 50px;
-  }
-  
-  header h1 {
-    font-size: 72px;
-  }
-  
-  header h2 {
-    font-size: 38px;
-    font-style: italic;
-  }
-  
-  .banner {
-    font-size: 60px;
-    text-align: center;
-    padding: 2%;
-  }
-  
-  h2 {
-    font-size: 24px;
-  }
-  
-  h3 {
-    font-size: 18px;
-  }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'Golos Text', sans-serif;
-  }
-  
-  .contentbox {
-    padding: 20px;
-  }
-  
-  .contentbox img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-  }
-  
-  .stage-info-box {
-    background-color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .seriesbox {
-    margin-top: 50px;
-    align-items: center;
-    justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('img/bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-  .seriesbox h1 {
-    font-size: 24px;
-  }
-  
-  .seriesbox h2 {
-    font-size: 18px;
-  }
-  
-  .seriesbox h3 {
-    font-size: 16px;
-    margin-right: 10px;
-  }
-  
-  .seriesbox img {
-    display: block;
-    margin-top: 10px;
-    border: 1px solid #fff;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-  }  
-
-  .stage-plot {
-    display: flex;
-  }
-  
-  .stage-plot img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-  }
-  
-  .stage-plot-text {
-    width: 50%;
-  }
-  
-  .stage-img {
-    width: 50%;
-    padding-right: 20px;
-  }
-  
-  .release-details {
-    margin-top: 10px;
-    font-size: 18px;
+header {
+  background: rgb(119, 114, 203);
+  background: linear-gradient(90deg, rgba(119, 114, 203, 1) 0%, rgba(36, 35, 55, 1) 100%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 72px;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-  .why-list {
-    margin: auto 0;
-    width: 750px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  .why-list li {
-    margin-top: 10px;
-  }
-  footer {
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-  }
-  
+#main {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Golos Text', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+header h1 {
+  font-size: 72px;
+}
+
+header h2 {
+  font-size: 38px;
+  font-style: italic;
+}
+
+.banner {
+  font-size: 60px;
+  text-align: center;
+  padding: 2%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Golos Text', sans-serif;
+}
+
+.contentbox {
+  padding: 20px;
+}
+
+.contentbox img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.stage-info-box {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.seriesbox {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgcontentbox {
+  border: 10px solid #808080;
+  width: 750px;
+}
+
+.seriesbox h1 {
+  font-size: 24px;
+}
+
+.seriesbox h2 {
+  font-size: 18px;
+}
+
+.seriesbox h3 {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.seriesbox img {
+  display: block;
+  margin-top: 10px;
+  width: 80%;
+}
+.stageimage {
+  border: 3px solid #808080;
+}
+
+.stage-plot {
+  display: flex;
+}
+
+.stage-plot img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.stage-plot-text {
+  width: 50%;
+}
+
+.stage-plot-text p {
+  margin:0;
+}
+
+.stage-img {
+  width: 50%;
+  padding-right: 20px;
+}
+.stage-img img{
+  box-shadow: 2px 2px 3px 0px #a0a0a0;
+}
+
+.release-details {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.why-list {
+  margin: auto 0;
+  width: 750px;
+}
+
+ul {
+  list-style: none;
+}
+
+.why-list li {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
